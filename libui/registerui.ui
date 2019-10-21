@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" stdsetdef="1">
+  <author></author>
+  <comment></comment>
+  <exportmacro></exportmacro>
+  <class>RegisterUI</class>
+  <widget class="QDialog" name="RegisterUI">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>452</width>
+        <height>289</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>Registration</string>
+    </property>
+    <layout class="QVBoxLayout">
+      <item>
+        <layout class="QHBoxLayout">
+          <item>
+            <widget class="QLabel" name="textLabel3_2">
+              <property name="text">
+                <string>Registration</string>
+              </property>
+              <property name="wordWrap">
+                <bool>false</bool>
+              </property>
+            </widget>
+          </item>
+          <item>
+            <widget class="Line" name="line11_2">
+              <property name="sizePolicy">
+                <sizepolicy>
+                  <hsizetype>7</hsizetype>
+                  <vsizetype>0</vsizetype>
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                </sizepolicy>
+              </property>
+              <property name="frameShadow">
+                <enum>QFrame::Sunken</enum>
+              </property>
+            </widget>
+          </item>
+        </layout>
+      </item>
+      <item>
+        <layout class="QGridLayout">
+          <item row="0" column="0" rowspan="2" colspan="1">
+            <spacer name="spacer103">
+              <property name="sizeHint">
+                <size>
+                  <width>20</width>
+                  <height>20</height>
+                </size>
+              </property>
+              <property name="sizeType">
+                <enum>QSizePolicy::Minimum</enum>
+              </property>
+              <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+              </property>
+            </spacer>
+          </item>
+          <item row="1" column="2">
+            <widget class="QLabel" name="textLabel1">
+              <property name="sizePolicy">
+                <sizepolicy>
+                  <hsizetype>7</hsizetype>
+                  <vsizetype>5</vsizetype>
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                </sizepolicy>
+              </property>
+              <property name="cursor">
+                <cursor>13</cursor>
+              </property>
+              <property name="text">
+                <string>&lt;a href=\&quot;http://www.fornux.com/calculator/purchase.html\&quot;&gt;http://www.fornux.com/calculator/purchase.html&lt;/a&gt;</string>
+              </property>
+              <property name="wordWrap">
+                <bool>false</bool>
+              </property>
+            </widget>
+          </item>
+          <item row="0" column="1" rowspan="1" colspan="2">
+            <widget class="QFrame" name="frame1">
+              <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout">
+                <property name="margin">
+                  <number>0</number>
+                </property>
+                <item>
+                  <widget class="QLabel" name="textLabel10">
+                    <property name="minimumSize">
+                      <size>
+                        <width>80</width>
+                        <height>0</height>
+                      </size>
+                    </property>
+                    <property name="text">
+                      <string>Code</string>
+                    </property>
+                    <property name="wordWrap">
+                      <bool>false</bool>
+                    </property>
+                  </widget>
+                </item>
+                <item>
+                  <widget class="QLineEdit" name="lineEdit10">
+                    <property name="readOnly">
+                      <bool>true</bool>
+                    </property>
+                  </widget>
+                </item>
+              </layout>
+            </widget>
+          </item>
+          <item row="1" column="1">
+            <widget class="QLabel" name="textLabel6">
+              <property name="minimumSize">
+                <size>
+                  <width>80</width>
+                  <height>0</height>
+                </size>
+              </property>
+              <property name="text">
+                <string>Hyperlink</string>
+              </property>
+              <property name="wordWrap">
+                <bool>false</bool>
+              </property>
+            </widget>
+          </item>
+          <item row="0" column="3" rowspan="2" colspan="1">
+            <spacer name="spacer23">
+              <property name="sizeHint">
+                <size>
+                  <width>20</width>
+                  <height>20</height>
+                </size>
+              </property>
+              <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+              </property>
+              <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+              </property>
+            </spacer>
+          </item>
+        </layout>
+      </item>
+      <item>
+        <spacer name="spacer1">
+          <property name="sizeHint">
+            <size>
+              <width>20</width>
+              <height>16</height>
+            </size>
+          </property>
+          <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+          </property>
+          <property name="orientation">
+            <enum>Qt::Vertical</enum>
+          </property>
+        </spacer>
+      </item>
+      <item>
+        <layout class="QHBoxLayout">
+          <item>
+            <widget class="QLabel" name="textLabel3">
+              <property name="text">
+                <string>Purchase Information</string>
+              </property>
+              <property name="wordWrap">
+                <bool>false</bool>
+              </property>
+            </widget>
+          </item>
+          <item>
+            <widget class="Line" name="line11">
+              <property name="sizePolicy">
+                <sizepolicy>
+                  <hsizetype>7</hsizetype>
+                  <vsizetype>0</vsizetype>
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                </sizepolicy>
+              </property>
+              <property name="frameShadow">
+                <enum>QFrame::Sunken</enum>
+              </property>
+            </widget>
+          </item>
+        </layout>
+      </item>
+      <item>
+        <layout class="QGridLayout">
+          <item row="1" column="1">
+            <spacer name="spacer12">
+              <property name="sizeHint">
+                <size>
+                  <width>20</width>
+                  <height>20</height>
+                </size>
+              </property>
+              <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+              </property>
+              <property name="orientation">
+                <enum>Qt::Vertical</enum>
+              </property>
+            </spacer>
+          </item>
+          <item row="0" column="2" rowspan="2" colspan="1">
+            <widget class="QTextEdit" name="textEdit1">
+              <property name="sizePolicy">
+                <sizepolicy>
+                  <hsizetype>7</hsizetype>
+                  <vsizetype>5</vsizetype>
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                </sizepolicy>
+              </property>
+              <property name="minimumSize">
+                <size>
+                  <width>316</width>
+                  <height>0</height>
+                </size>
+              </property>
+              <property name="maximumSize">
+                <size>
+                  <width>32767</width>
+                  <height>67</height>
+                </size>
+              </property>
+              <property name="font">
+                <font>
+                  <family>Courier New</family>
+                </font>
+              </property>
+              <property name="resizePolicy">
+                <enum>Q3ScrollView::Manual</enum>
+              </property>
+              <property name="vScrollBarMode">
+                <enum>Q3ScrollView::AlwaysOff</enum>
+              </property>
+              <property name="hScrollBarMode">
+                <enum>Q3ScrollView::AlwaysOff</enum>
+              </property>
+              <property name="dragAutoScroll">
+                <bool>true</bool>
+              </property>
+              <property name="textFormat">
+                <enum>Qt::PlainText</enum>
+              </property>
+              <property name="linkUnderline">
+                <bool>true</bool>
+              </property>
+              <property name="wordWrap">
+                <enum>QTextEdit::FixedColumnWidth</enum>
+              </property>
+              <property name="wrapColumnOrWidth">
+                <number>43</number>
+              </property>
+              <property name="wrapPolicy">
+                <enum>QTextEdit::AtWordOrDocumentBoundary</enum>
+              </property>
+              <property name="tabChangesFocus">
+                <bool>true</bool>
+              </property>
+            </widget>
+          </item>
+          <item row="0" column="0" rowspan="2" colspan="1">
+            <spacer name="spacer77">
+              <property name="sizeHint">
+                <size>
+                  <width>20</width>
+                  <height>20</height>
+                </size>
+              </property>
+              <property name="sizeType">
+                <enum>QSizePolicy::Minimum</enum>
+              </property>
+              <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+              </property>
+            </spacer>
+          </item>
+          <item row="0" column="1">
+            <widget class="QLabel" name="textLabel4">
+              <property name="minimumSize">
+                <size>
+                  <width>80</width>
+                  <height>0</height>
+                </size>
+              </property>
+              <property name="text">
+                <string>Serial Key</string>
+              </property>
+              <property name="wordWrap">
+                <bool>false</bool>
+              </property>
+            </widget>
+          </item>
+        </layout>
+      </item>
+      <item>
+        <widget class="QFrame" name="frame2">
+          <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout">
+            <property name="margin">
+              <number>0</number>
+            </property>
+            <item>
+              <spacer name="spacer2">
+                <property name="sizeHint">
+                  <size>
+                    <width>20</width>
+                    <height>20</height>
+                  </size>
+                </property>
+                <property name="sizeType">
+                  <enum>QSizePolicy::Expanding</enum>
+                </property>
+                <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                </property>
+              </spacer>
+            </item>
+            <item>
+              <layout class="QHBoxLayout">
+                <item>
+                  <widget class="QLabel" name="pixmapLabel1">
+                    <property name="sizePolicy">
+                      <sizepolicy>
+                        <hsizetype>0</hsizetype>
+                        <vsizetype>0</vsizetype>
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                      </sizepolicy>
+                    </property>
+                    <property name="pixmap">
+                      <pixmap>InformationEvent.png</pixmap>
+                    </property>
+                    <property name="wordWrap">
+                      <bool>false</bool>
+                    </property>
+                  </widget>
+                </item>
+                <item>
+                  <widget class="QLabel" name="textLabel11">
+                    <property name="sizePolicy">
+                      <sizepolicy>
+                        <hsizetype>7</hsizetype>
+                        <vsizetype>5</vsizetype>
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                      </sizepolicy>
+                    </property>
+                    <property name="text">
+                      <string>You need the above code to fill the ordering form.  Then you will receive by email the serial key valid for your computer.</string>
+                    </property>
+                    <property name="alignment">
+                      <set>Qt::AlignVCenter</set>
+                    </property>
+                    <property name="wordWrap">
+                      <bool>true</bool>
+                    </property>
+                  </widget>
+                </item>
+              </layout>
+            </item>
+          </layout>
+        </widget>
+      </item>
+      <item>
+        <spacer name="spacer3">
+          <property name="sizeHint">
+            <size>
+              <width>20</width>
+              <height>20</height>
+            </size>
+          </property>
+          <property name="sizeType">
+            <enum>QSizePolicy::MinimumExpanding</enum>
+          </property>
+          <property name="orientation">
+            <enum>Qt::Vertical</enum>
+          </property>
+        </spacer>
+      </item>
+      <item>
+        <layout class="QHBoxLayout">
+          <item>
+            <spacer name="Horizontal Spacing2">
+              <property name="sizeHint">
+                <size>
+                  <width>20</width>
+                  <height>20</height>
+                </size>
+              </property>
+              <property name="sizeType">
+                <enum>QSizePolicy::MinimumExpanding</enum>
+              </property>
+              <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+              </property>
+            </spacer>
+          </item>
+          <item>
+            <widget class="QPushButton" name="buttonOk">
+              <property name="text">
+                <string>&amp;OK</string>
+              </property>
+              <property name="shortcut">
+                <string/>
+              </property>
+              <property name="autoDefault">
+                <bool>true</bool>
+              </property>
+              <property name="default">
+                <bool>true</bool>
+              </property>
+            </widget>
+          </item>
+          <item>
+            <widget class="QPushButton" name="buttonCancel">
+              <property name="text">
+                <string>&amp;Cancel</string>
+              </property>
+              <property name="shortcut">
+                <string/>
+              </property>
+              <property name="autoDefault">
+                <bool>true</bool>
+              </property>
+            </widget>
+          </item>
+          <item>
+            <spacer name="spacer76">
+              <property name="sizeHint">
+                <size>
+                  <width>20</width>
+                  <height>20</height>
+                </size>
+              </property>
+              <property name="sizeType">
+                <enum>QSizePolicy::MinimumExpanding</enum>
+              </property>
+              <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+              </property>
+            </spacer>
+          </item>
+        </layout>
+      </item>
+    </layout>
+  </widget>
+  <layoutdefault spacing="6" margin="11"/>
+  
+  <connections>
+    <connection>
+      <sender>buttonCancel</sender>
+      <signal>clicked()</signal>
+      <receiver>RegisterUI</receiver>
+      <slot>reject()</slot>
+    </connection>
+    <connection>
+      <sender>buttonOk</sender>
+      <signal>clicked()</signal>
+      <receiver>RegisterUI</receiver>
+      <slot>accept()</slot>
+    </connection>
+  </connections>
+</ui>
