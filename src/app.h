@@ -32,7 +32,7 @@ class App : public QApplication
 	QSplashScreen * pSplash;
 
 public:
-	App(int, char * [], char const *);
+    App(int &, char * [], char const *);
 	
 protected:
 	static void termination_handler(int);

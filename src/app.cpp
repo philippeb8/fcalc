@@ -84,7 +84,7 @@ void translateFontSize( QWidget *ui )
     }
 }
 
-App::App(int argc, char * argv[], const char * name) : QApplication(argc, argv)
+App::App(int & argc, char * argv[], const char * name) : QApplication(argc, argv)
 {
 	self = this;
 
@@ -110,12 +110,12 @@ App::App(int argc, char * argv[], const char * name) : QApplication(argc, argv)
 	signal(SIGTERM, termination_handler);
 */
 
-	// Filename option
+    // Filename option
 	if (1 < argc && argv[1][0] != '/')
 	{
 		pMainUI->filename = argv[1];
 		pMainUI->option.commandline = true;
-	}
+    }
 
 /**
 	// execute application
